@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="YP_Product_Ecl" parallel="false" >
+  <test name="InFirefox">
+   <parameter name="BROWSER" value="FF" />
+    <classes>
+      <class name="WD_YP_Ecl.A01_HomePage"/>
+    </classes>
+    <classes>
+      <class name="WD_YP_Ecl.A02_CategoryPage"/>
+    </classes>
+        <classes>
+      <class name="WD_YP_Ecl.A03_ListingPage"/>
+    </classes>
+        <classes>
+      <class name="WD_YP_Ecl.A04_IndiaPage"/>
+    </classes>
+        <classes>
+      <class name="WD_YP_Ecl.A05_KeywordPage"/>
+    </classes>
+        <classes>
+      <class name="WD_YP_Ecl.A06_FreeProfile"/>
+    </classes>
+        <classes>
+      <class name="WD_YP_Ecl.A07_PaidProfile"/>
+    </classes>
+        <classes>
+      <class name="WD_YP_Ecl.A08_FreePage"/>
+    </classes>
+    <classes>
+      <class name="WD_YP_Ecl.A09_CostPage"/>
+    </classes>
+    <classes>
+      <class name="WD_YP_Ecl.A09_CostPage"/>
+    </classes>
+<!--     <classes>
+      <class name="WD_YP_Ecl.A09_CostPage"/>
+    </classes> -->
+    <classes>
+      <class name="WD_YP_Ecl.A11_DifferentPage"/>
+    </classes>
+  
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
